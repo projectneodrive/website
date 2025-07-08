@@ -1,1 +1,4 @@
 theme = 'hello-friend-ng'
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
