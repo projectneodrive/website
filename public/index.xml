@@ -1,11 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <title>Home on Project Neodrive</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content in Home on Project Neodrive</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Join Us</title>
+      <link>http://localhost:1313/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/join/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Our Approach</title>
+      <link>http://localhost:1313/approach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/approach/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>The Problem</title>
+      <link>http://localhost:1313/problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/problem/</guid>
+      <description>We aim to drastically reduce the impact of personal mobility on the world. Private cars account for 13% of Europe’s total greenhouse gas emissions.&#xA;And they are deeply inefficient: a typical car consumes approximately 10 times more energy per kilometer than riding a bike.&#xA;But emissions are just one problem.&#xA;Cars also drive traffic congestion, parking shortages, noise pollution, and many other concerning issues.&#xA;80% of trips in Europe are under 10 km, with an average of just 1.</description>
+    </item>
   </channel>
 </rss>
