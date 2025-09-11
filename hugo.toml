@@ -160,10 +160,6 @@ disableHugoGeneratorInject = false
     url  = "https://github.com/orgs/projectneodrive"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
-
-  [[params.social]]
     name = "instagram"
     url  = "https://www.instagram.com/projectneodrive/"
 
