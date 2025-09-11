@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/data/ClawdDrive/Code/website/projectneodrive.ch",
+	"sourceRoot": "/home/nemo/ClawdDrive/Code/website/projectneodrive.ch",
 	"sources": [
 		"themes/hello-friend-ng/assets/scss/main.scss",
 		"themes/hello-friend-ng/assets/scss/_normalize.scss",
