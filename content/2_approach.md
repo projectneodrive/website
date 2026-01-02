@@ -1,5 +1,5 @@
 ---
-title: "Our Approach"
+title: "Approach"
 weight: 20
 url: "/approach/"
 ---
@@ -29,3 +29,6 @@ We do this work openly.
 Designs, results, and failures are shared publicly, so others can learn, adapt, and build upon them.
 
 **Neodrive is guided by compromise**: no single metric dominates, and every design choice balances comfort, safety, usability, efficiency, and sustainability.
+
+---
+{{< social >}}

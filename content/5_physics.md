@@ -61,13 +61,15 @@ We can design batteries for that reality, smaller, lighter, more repairable, bec
 Other storage ideas deserve exploration too: compressed air, simpler chemistries, even wild concepts to fully remove the conflicts mineral from the equation.  
 
 > **“Newton’s third law, the only way humans have ever figured out of getting somewhere is to leave something behind.” -  TARS, Interstellar**
-This line, spoken while shedding mass for momentum, echoes a fundamental constraint: range is constrained by what you carry.
+This is a fundamental constraint: range is constrained by what you carry.
 
 
-![Efficiency Frontier](https://raw.githubusercontent.com/projectneodrive/efficiency-frontier/main/Efficiency.png "Efficiency Frontier Plot")
+![Efficiency plot](https://raw.githubusercontent.com/projectneodrive/efficiency-frontier/main/Efficiency.png "Efficiency Plot")
 
-The **Efficiency Frontier plot** illustrates how energy consumption varies with speed across a range of vehicles. Modern petrol cars, like a typical hatchback, and historical models, such as the Citroën 2CV, show high energy use at even moderate speeds. Electric cars, such as a Tesla Model 3 or a Prius in electric mode, achieve lower energy per kilometer, but the gain are relatively modest in order of 3-5 time. One the other hands, light vehicles, including bicycles like the CityEL, or pedal-assisted models like the Twike which where designed almost 50 years ago, sit far below conventional and electric cars in energy use, especially at urban speeds (20–50 km/h). Trains also show strong efficiency at higher speeds due to reduced rolling resistance and the fact that the aerodynamic drag is compensated by the very large number of people it can move at once.
+The **Efficiency plot** illustrates how energy consumption varies with speed across a range of vehicles. Modern petrol cars, like a typical hatchback, and historical models, such as the Citroën 2CV, show high energy use at even moderate speeds. Electric cars, such as a Tesla Model 3 or a Prius in electric mode, achieve lower energy per kilometer, but the gain are relatively modest in order of 3-5 time. One the other hands, light vehicles, including bicycles like the CityEL, or pedal-assisted models like the Twike which where designed almost 50 years ago, sit far below conventional and electric cars in energy use, especially at urban speeds (20–50 km/h). Trains also show strong efficiency at higher speeds due to reduced rolling resistance and the fact that the aerodynamic drag is compensated by the very large number of people it can move at once.
 
 This plot highlights a fundamental insight: **vehicle mass and aerodynamics dominate energy consumption**, and lighter, streamlined designs achieve massive efficiency gains before even considering the type of powertrain. It emphasizes why reducing weight and frontal area is critical for sustainable mobility, particularly for city travel where conventional cars are extremely overpowered for the task.
 
 
+---
+{{< social >}}

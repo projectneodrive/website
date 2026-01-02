@@ -1,5 +1,5 @@
 ---
-title: "The Problem"
+title: "Problem"
 weight: 10
 url: "/problem/"
 ---
@@ -28,3 +28,6 @@ This is not a failure of individuals, but of systems and design. Habits and valu
 
 The core issue is not that people choose cars.  
 It is that **cars have become the default solution to problems they were never meant to solve**.
+
+---
+{{< social >}}

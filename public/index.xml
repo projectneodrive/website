@@ -9,14 +9,14 @@
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The Problem</title>
+      <title>Problem</title>
       <link>http://localhost:1313/problem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/problem/</guid>
       <description>&lt;h1 id=&#34;cars-are-the-wrong-tool-for-most-trips&#34;&gt;Cars are the wrong tool for most trips&lt;/h1&gt;&#xA;&lt;p&gt;Private cars account for approximately &lt;strong&gt;13% of Europe’s total greenhouse gas emissions&lt;/strong&gt;.&lt;br&gt;&#xA;Yet climate impact is only part of the problem.&lt;/p&gt;&#xA;&lt;p&gt;For everyday mobility, cars are fundamentally inefficient.&lt;br&gt;&#xA;A typical car consumes &lt;strong&gt;around 10 to 100 times more energy per kilometer&lt;/strong&gt; than a bicycle, while carrying on average &lt;strong&gt;1.4 people in a 5-seat vehicle&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;80% of trips in Europe are under 10 km.&lt;/strong&gt;&lt;br&gt;&#xA;These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>Our Approach</title>
+      <title>Approach</title>
       <link>http://localhost:1313/approach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/approach/</guid>
@@ -55,7 +55,7 @@
       <link>http://localhost:1313/join/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/join/</guid>
-      <description>&lt;p&gt;If you’re curious to learn more about Neodrive or want to collaborate on designing sustainable mobility, we’d love to hear from you. Join the conversation on &lt;a href=&#34;t.me/projectneodrive&#34;&gt;Telegram&lt;/a&gt; and connect with our team.&lt;/p&gt;</description>
+      <description>&lt;p&gt;If you’re curious to learn more about Neodrive or want to collaborate on designing sustainable mobility, we’d love to hear from you. Join the conversation on &lt;a href=&#34;t.me/projectneodrive&#34;&gt;Telegram&lt;/a&gt; and connect with our team.&lt;/p&gt;&#xA;&#xA;  &lt;div class=&#34;social-icons&#34;&gt;&#xA;    &amp;nbsp; &lt;a href=&#34;https://t.me/projectneodrive&#34;  rel=&#34;me noopener &#34; title=&#34;Telegram&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;line x1=&#34;22&#34; y1=&#34;2&#34; x2=&#34;11&#34; y2=&#34;13&#34;&gt;&lt;/line&gt;&lt;polygon points=&#34;22 2 15 22 11 13 2 9 22 2&#34;&gt;&lt;/polygon&gt;&lt;/svg&gt;&lt;/a&gt; &amp;nbsp;&amp;nbsp; &lt;a href=&#34;https://github.com/orgs/projectneodrive&#34;  rel=&#34;me noopener &#34; title=&#34;Github&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;path d=&#34;M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22&#34;&gt;&lt;/path&gt;&lt;/svg&gt;&lt;/a&gt; &amp;nbsp;&amp;nbsp; &lt;a href=&#34;https://www.instagram.com/projectneodrive/&#34;  rel=&#34;me noopener &#34; title=&#34;Instagram&#34;&gt;&lt;svg xmlns=&#34;http://www.w3.org/2000/svg&#34; width=&#34;24&#34; height=&#34;24&#34; viewBox=&#34;0 0 24 24&#34; fill=&#34;none&#34; stroke=&#34;currentColor&#34; stroke-width=&#34;2&#34; stroke-linecap=&#34;round&#34; stroke-linejoin=&#34;round&#34;&gt;&lt;rect x=&#34;2&#34; y=&#34;2&#34; width=&#34;20&#34; height=&#34;20&#34; rx=&#34;5&#34; ry=&#34;5&#34;&gt;&lt;/rect&gt;&lt;path d=&#34;M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z&#34;&gt;&lt;/path&gt;&lt;line x1=&#34;17.5&#34; y1=&#34;6.5&#34; x2=&#34;17.5&#34; y2=&#34;6.5&#34;&gt;&lt;/line&gt;&lt;/svg&gt;&lt;/a&gt; &amp;nbsp;&#xA;  &lt;/div&gt;</description>
     </item>
   </channel>
 </rss>

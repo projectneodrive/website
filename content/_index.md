@@ -4,14 +4,23 @@ weight: 0
 url: "/"
 ---
 
-# Neodrive: mobility, rethought.
 
+## The problem
 Cars are inefficient, polluting, and overkill for most everyday trips.  
 Most journeys are short, and most car seats are empty.
 
-Neodrive is a **light, weather-protected, human-scaled vehicle** that combines the **comfort and perceived safety of a car** with the **efficiency of a bike**.
+[Learn about the problematic →](/problem/)
 
-Our mission is simple: **drastically reduce the impact of personal mobility on the world**.  
-Learn how we approach this challenge in [Our Approach](/approach/).
+## Our approach
+Neodrive is a research project around **light, weather-protected, human-scaled vehicle**.  
+The goal is to combines the **comfort and perceived safety of a car** with the **efficiency of a bike**.  
+Our mission : **drastically reduce the impact of personal mobility on the world**.  
 
-[Join Us](/join/) We’re looking for engineers, designers, and anyone who wants to help rethink how we move.
+[Learn about our approach →](/approach/)
+
+
+
+**Want to help rethink mobility?**  
+[Join us →](/join/)
+
+---

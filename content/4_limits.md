@@ -50,3 +50,6 @@ We treat planetary boundaries as design constraints.
 This means questioning size, weight, speed, and material choices—not just for efficiency, but for their long-term ecological consequences.
 
 The goal is not to optimize mobility in isolation, but to make it compatible with the limits of the world it depends on, **balancing human needs with planetary survival**.
+
+---
+{{< social >}}

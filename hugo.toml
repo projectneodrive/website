@@ -106,7 +106,7 @@ disableHugoGeneratorInject = false
 
   # Toggle this option need to rebuild SCSS, requires extended version of Hugo
   #
-  justifyContent = false  # Set "text-align: justify" to .post-content.
+  justifyContent = true  # Set "text-align: justify" to .post-content.
 
   # Integrate Plausible.io
   # plausibleDataDomain = 'test.com'
@@ -142,10 +142,10 @@ disableHugoGeneratorInject = false
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
   # Uncomment this if you want a portrait on your start page
   #
-  # [params.portrait]
-  #   path     = "/img/image.jpg"
-  #   alt      = "Portrait"
-  #   maxWidth = "50px"
+  [params.portrait]
+    path     = "img/logo.jpg"
+    alt      = "Project Neodrive logo"
+    maxWidth = "50px"
 
   # # # # # # # # # # # # # # # # # # # # # # # # # # # # #  
   # Addon: Social icons
@@ -174,13 +174,13 @@ disableHugoGeneratorInject = false
 
 [[menu.main]]
   identifier = "problem"
-  name       = "The Problem"
+  name       = "Problem"
   url        = "/problem/"
   weight     = 10
 
 [[menu.main]]
   identifier = "approach"
-  name       = "Our Approach"
+  name       = "Approach"
   url        = "/approach/"
   weight     = 20
 
@@ -198,7 +198,7 @@ disableHugoGeneratorInject = false
 
 [[menu.main]]
   identifier = "physics"
-  name       = "Respecting Physics"
+  name       = "The laws of Physics"
   url        = "/physics/"
   weight     = 50
 
