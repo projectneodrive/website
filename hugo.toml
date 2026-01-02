@@ -57,13 +57,13 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Project Neodrive : Redefining mobility"
+  description = "Project Neodrive : Bridging the gap toward sustainable personal mobility"
   keywords = ""
   images = [""]
 
   # Home subtitle of the index page.
   #
-  homeSubtitle = "Project Neodrive : Redefining mobility"
+  homeSubtitle = "Project Neodrive : Bridging the gap toward sustainable personal mobility"
 
   # Set a background for the homepage
   # backgroundImage = "assets/images/background.jpg"
@@ -165,19 +165,51 @@ disableHugoGeneratorInject = false
 
 
 [menu]
-  [[menu.main]]
-    identifier = "1home"
-    name       = "Home"
-    url        = ""
-  [[menu.main]]
-    identifier = "2problem"
-    name       = "The Problem"
-    url        = "problem/"
-  [[menu.main]]
-    identifier = "3approach"
-    name       = "Our Approach"
-    url        = "approach/"
-  [[menu.main]]
-    identifier = "4join"
-    name       = "Join Us"
-    url        = "join/"
+
+[[menu.main]]
+  identifier = "home"
+  name       = "Home"
+  url        = "/"
+  weight     = 0
+
+[[menu.main]]
+  identifier = "problem"
+  name       = "The Problem"
+  url        = "/problem/"
+  weight     = 10
+
+[[menu.main]]
+  identifier = "approach"
+  name       = "Our Approach"
+  url        = "/approach/"
+  weight     = 20
+
+[[menu.main]]
+  identifier = "humans"
+  name       = "Designing for Humans"
+  url        = "/humans/"
+  weight     = 30
+
+[[menu.main]]
+  identifier = "limits"
+  name       = "Living Within Limits"
+  url        = "/limits/"
+  weight     = 40
+
+[[menu.main]]
+  identifier = "physics"
+  name       = "Respecting Physics"
+  url        = "/physics/"
+  weight     = 50
+
+[[menu.main]]
+  identifier = "economic"
+  name       = "Making It Viable"
+  url        = "/economic/"
+  weight     = 60
+
+[[menu.main]]
+  identifier = "join"
+  name       = "Build With Us"
+  url        = "/join/"
+  weight     = 70

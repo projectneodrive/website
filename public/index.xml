@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Home on Project Neodrive</title>
+    <title>Project Neodrive</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in Home on Project Neodrive</description>
+    <description>Recent content on Project Neodrive</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Join Us</title>
-      <link>http://localhost:1313/join/</link>
+      <title>The Problem</title>
+      <link>http://localhost:1313/problem/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/join/</guid>
-      <description></description>
+      <guid>http://localhost:1313/problem/</guid>
+      <description>&lt;h1 id=&#34;cars-are-the-wrong-tool-for-most-trips&#34;&gt;Cars are the wrong tool for most trips&lt;/h1&gt;&#xA;&lt;p&gt;Private cars account for approximately &lt;strong&gt;13% of Europe’s total greenhouse gas emissions&lt;/strong&gt;.&lt;br&gt;&#xA;Yet climate impact is only part of the problem.&lt;/p&gt;&#xA;&lt;p&gt;For everyday mobility, cars are fundamentally inefficient.&lt;br&gt;&#xA;A typical car consumes &lt;strong&gt;around 10 to 100 times more energy per kilometer&lt;/strong&gt; than a bicycle, while carrying on average &lt;strong&gt;1.4 people in a 5-seat vehicle&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;80% of trips in Europe are under 10 km.&lt;/strong&gt;&lt;br&gt;&#xA;These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Our Approach</title>
       <link>http://localhost:1313/approach/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/approach/</guid>
-      <description></description>
+      <description>&lt;p&gt;We start from a simple observation:&lt;br&gt;&#xA;for most daily trips, neither cars nor bikes fully match human needs.&lt;/p&gt;&#xA;&lt;p&gt;Cars provide comfort, protection, and a sense of safety but at a high environmental and spatial cost.&lt;br&gt;&#xA;Bikes are extremely efficient but often fail on comfort, cargo capacity, weather protection, perceived safety in traffic, and require physical effort.&lt;/p&gt;&#xA;&lt;p&gt;Neodrive explores what exists &lt;strong&gt;between&lt;/strong&gt; these two extremes, deliberately seeking a &lt;strong&gt;balance between user needs and environmental limits&lt;/strong&gt;.&lt;br&gt;&#xA;We aim not for perfection in one dimension, but for a thoughtful compromise that serves people &lt;strong&gt;and&lt;/strong&gt; the planet—operating as close as possible to true needs without indulging in excess.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>The Problem</title>
-      <link>http://localhost:1313/problem/</link>
+      <title>Designing for Humans</title>
+      <link>http://localhost:1313/humans/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/problem/</guid>
-      <description>&lt;h1 id=&#34;we-aim-to-drastically-reduce-the-impact-of-personal-mobility-on-the-world&#34;&gt;We aim to drastically reduce the impact of personal mobility on the world.&lt;/h1&gt;&#xA;&lt;p&gt;Private cars account for &lt;strong&gt;13% of Europe’s total greenhouse gas emissions&lt;/strong&gt;.&lt;br&gt;&#xA;And they are deeply inefficient: a typical car consumes approximately &lt;strong&gt;10 times more energy per kilometer&lt;/strong&gt; than riding a bike.&lt;/p&gt;&#xA;&lt;p&gt;But emissions are just one problem.&lt;br&gt;&#xA;Cars also drive &lt;strong&gt;traffic congestion&lt;/strong&gt;, &lt;strong&gt;parking shortages&lt;/strong&gt;, &lt;strong&gt;noise pollution&lt;/strong&gt;, and many other concerning issues.&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;80% of trips in Europe are under 10 km&lt;/strong&gt;, with an average of just &lt;strong&gt;1.4 people per car&lt;/strong&gt;.&lt;br&gt;&#xA;Yet cars offer &lt;strong&gt;5 seats&lt;/strong&gt; that are unused the vast majority of the time.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/humans/</guid>
+      <description>&lt;p&gt;Mobility is not only a technical problem.&lt;br&gt;&#xA;It is a question of values and human needs.&lt;/p&gt;&#xA;&lt;p&gt;Every transport system optimizes something: speed, cost, energy, comfort, safety.&lt;br&gt;&#xA;As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.&lt;/p&gt;&#xA;&lt;p&gt;Some variables are relatively &lt;strong&gt;objective&lt;/strong&gt;: travel time, distance, energy use, cost, injury per km.&lt;br&gt;&#xA;Others are deeply &lt;strong&gt;subjective&lt;/strong&gt;: perceived time, comfort, effort, stress, sense of safety, dignity, autonomy.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Living Within Limits</title>
+      <link>http://localhost:1313/limits/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/limits/</guid>
+      <description>&lt;p&gt;Human mobility operates within physical and ecological boundaries.&lt;br&gt;&#xA;These limits are not political opinions—they are hard constraints imposed by the planet.&lt;/p&gt;&#xA;&lt;p&gt;Climate change is the clearest signal that humanity is exceeding planetary limits.&lt;br&gt;&#xA;Even though the CO₂ we emit represents only a tiny fraction of the atmosphere, it acts like a thermal blanket: trapping infrared radiation, raising global temperatures, and destabilizing weather patterns.&lt;br&gt;&#xA;This small change has outsized effects because the climate system is highly sensitive and tightly coupled—slight imbalances can trigger extreme events such as heatwaves, floods, storms, and droughts.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The laws of Physics</title>
+      <link>http://localhost:1313/physics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/physics/</guid>
+      <description>&lt;p&gt;There are the laws of men, and the laws of nature. The latter cannot be broken.&lt;br&gt;&#xA;Nature does not negotiate. At human scale, a few parameters dominate almost everything.&lt;br&gt;&#xA;&lt;strong&gt;Dura lex, sed lex!&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h1 id=&#34;mass-matters-everywhere&#34;&gt;Mass matters everywhere&lt;/h1&gt;&#xA;&lt;p&gt;Weight drives almost everything: the resources needed to build a vehicle, the energy required for every acceleration, climb, or stop.&lt;br&gt;&#xA;It increases rolling resistance, amplifies non-exhaust pollution, and multiplies the energy involved in crashes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Making It Viable</title>
+      <link>http://localhost:1313/economic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/economic/</guid>
+      <description>&lt;p&gt;Building a sustainable mobility system isn’t just a question of physics or engineering, it’s a question of incentives, resources, and coordination. Capitalism and free markets and funding all impose more hard constraints that we have to solve.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h1 id=&#34;markets-are-mercyless&#34;&gt;Markets Are Mercyless&lt;/h1&gt;&#xA;&lt;p&gt;Markets only produce efficient outcomes under very strong conditions : when competition is fair, information is perfect, and incentives align. Even then, efficiency (Pareto optimality) doesn’t guarantee fairness or justice.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Build With Us</title>
+      <link>http://localhost:1313/join/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/join/</guid>
+      <description>&lt;p&gt;If you’re curious to learn more about Neodrive or want to collaborate on designing sustainable mobility, we’d love to hear from you. Join the conversation on &lt;a href=&#34;t.me/projectneodrive&#34;&gt;Telegram&lt;/a&gt; and connect with our team.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

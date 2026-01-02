@@ -1,0 +1,11 @@
+---
+title: "Designing for Humans"
+weight: 30
+url: "/humans/"
+menu:
+  main:
+    identifier: "humans"
+    name: "Designing for Humans"
+    url: "/humans/"
+    weight: 30
+---
