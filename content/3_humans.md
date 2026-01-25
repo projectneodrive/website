@@ -33,7 +33,7 @@ Human mobility is multi-dimensional.
 People choose modes of transport not by maximizing a single variable, but by navigating trade-offs between time and attention, effort and comfort, flexibility and predictability, exposure and protection, individual needs and social norms.
 
 Several frameworks attempt to explain how these trade-offs are navigated in practice.  
-One of the most useful is **motility**, proposed by sociologist Vincent Kaufmann.
+One of the most useful is **motility**, proposed by sociologist [Vincent Kaufmann](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.0309-1317.2004.00549.x). (accessible freely via sci-hub)
 
 Motility describes mobility not as movement itself, but as a form of **capacity**.  
 It is shaped by three dimensions: **access** to transport options, **competence** to use them confidently, and **appropriation**, the extent to which a mode feels legitimate, acceptable, or “for me.”
@@ -54,7 +54,8 @@ They offer flexibility, enabling trip chaining, detours, and unplanned tasks wit
 They also shape time perception: driving often feels shorter than waiting, transferring, or coordinating schedules.
 
 This is why **faster vehicles do not always save time** in practice: urban sprawl and longer trip distances often erase speed gains.  
-Efficiency is not just about top speed—it is about total effort, convenience, and real-world experience.
+Efficiency is not just about energy demand but also total effort, convenience, and real-world experience.
+To push this furter, we can use the notion of **generalized speed** of [Ivan Illich](https://fr.wikipedia.org/wiki/Ivan_Illich#Concept_de_vitesse_g%C3%A9n%C3%A9ralis%C3%A9e) which look at all the time (notably the working time to finance a vehicle) to cover a given distance. The result is generally painful with generalized speed rarely above 30 kmh with lower income class being more penalized.
 
 People also make trade-offs based on social and psychological factors:  
 - Choosing a slightly longer train trip to read, relax, or work.  
@@ -74,7 +75,7 @@ We do not assume that energy efficiency alone defines what is better.
 Instead, we acknowledge the existence of these variables and treat them as real design constraints.  
 Our goal is not to eliminate trade-offs, but to **design with them consciously**, addressing **true human needs without indulging in excess**.
 
-By iterating on real vehicles with real users, we observe how changes in design affect access, competence, and appropriation—not just performance metrics.
+By iterating on real vehicles with real users, we observe how changes in design affect access, competence, and appropriation. Not just performance metrics.
 
 Designing for humans means accepting uncertainty, resisting false optimization, and refusing to treat subjective experience as secondary.
 

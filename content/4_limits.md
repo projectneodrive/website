@@ -5,11 +5,12 @@ url: "/limits/"
 ---
 
 Human mobility operates within physical and ecological boundaries.  
-These limits are not political opinions—they are hard constraints imposed by the planet.
+These limits are not political opinions.
+they are hard constraints imposed by the planet.
 
 Climate change is the clearest signal that humanity is exceeding planetary limits.  
 Even though the CO₂ we emit represents only a tiny fraction of the atmosphere, it acts like a thermal blanket: trapping infrared radiation, raising global temperatures, and destabilizing weather patterns.  
-This small change has outsized effects because the climate system is highly sensitive and tightly coupled—slight imbalances can trigger extreme events such as heatwaves, floods, storms, and droughts.  
+This small change has outsized effects because the climate system is highly sensitive and tightly coupled. Slight imbalances can trigger extreme events such as heatwaves, floods, storms, and droughts.  
 
 Ecosystems cannot adapt fast enough to these changes. Species face habitat loss, migration pressures, and mismatched seasonal cycles, leading to declines and extinctions.  
 These ecological disruptions cascade into human societies, affecting food production, water supply, health, infrastructure, and economies.  
@@ -47,7 +48,7 @@ It demands reducing material intensity, minimizing mass per transported person, 
 Durability, repairability, and sufficiency are key strategies.
 
 We treat planetary boundaries as design constraints.  
-This means questioning size, weight, speed, and material choices—not just for efficiency, but for their long-term ecological consequences.
+This means questioning size, weight, speed, and material choices, not just for efficiency, but for their long-term ecological consequences.
 
 The goal is not to optimize mobility in isolation, but to make it compatible with the limits of the world it depends on, **balancing human needs with planetary survival**.
 
