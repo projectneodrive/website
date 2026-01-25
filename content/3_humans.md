@@ -57,14 +57,6 @@ This is why **faster vehicles do not always save time** in practice: urban spraw
 Efficiency is not just about energy demand but also total effort, convenience, and real-world experience.
 To push this furter, we can use the notion of **generalized speed** of [Ivan Illich](https://fr.wikipedia.org/wiki/Ivan_Illich#Concept_de_vitesse_g%C3%A9n%C3%A9ralis%C3%A9e) which look at all the time (notably the working time to finance a vehicle) to cover a given distance. The result is generally painful with generalized speed rarely above 30 kmh with lower income class being more penalized.
 
-People also make trade-offs based on social and psychological factors:  
-- Choosing a slightly longer train trip to read, relax, or work.  
-- Accepting a slower e-bike ride if it reduces stress and exposure.  
-- Planning trips to match personal routines, rather than absolute speed.
-
-These advantages are not irrational preferences.  
-They are rational responses to a mobility system built around the car for decades.
-
 From a justice perspective, this matters.  
 A system optimized for an “average” user often shifts costs onto others: non-drivers, children, the elderly, or those who don’t match the average.  
 What appears efficient on paper may be unfair in practice.
