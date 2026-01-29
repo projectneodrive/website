@@ -207,3 +207,9 @@ disableHugoGeneratorInject = false
   name       = "Build With Us"
   url        = "/join/"
   weight     = 70
+  
+[[menu.main]]
+  identifier = "mk1"
+  name       = "vehicle mk1"
+  url        = "/mk1/"
+  weight     = 80
