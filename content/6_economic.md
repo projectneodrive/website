@@ -373,6 +373,8 @@ We aim to explore whether a vehicle can:
 
 all of that to get a foodhold to drive the economy of scale lower and hopefully start to replace the rest of the cars by being brutally cheaper.
 
+In practive that mean designing a vehicle that (can cost less than 5k CHF from a volume of a dozens per years.)[https://www.youtube.com/watch?v=XAYhNHhxN0A]
+
 ---
 
 {{< social >}}
