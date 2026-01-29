@@ -7,6 +7,10 @@ url: "/humans/"
 Mobility is not only a technical problem.  
 It is a question of values and human needs.
 
+---
+
+## I - Optimization Is Never Neutral
+
 Every transport system optimizes something: speed, cost, energy, comfort, safety.  
 As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.
 
@@ -23,6 +27,10 @@ There is no universal answer.
 Assigning weights to these dimensions is a **value judgment**, not a scientific fact.  
 Pretending otherwise is a form of dishonesty often hidden behind “optimization.”
 
+---
+
+## II - What Cannot Be Measured Still Matters
+
 The problem is made harder by measurement.  
 Many of the most important variables like mental load, perceived safety, familiarity, fatigue, or the ability to focus on other tasks cannot be reliably quantified, even though they strongly shape behavior.
 
@@ -32,6 +40,10 @@ It only guarantees poor design.
 Human mobility is multi-dimensional.  
 People choose modes of transport not by maximizing a single variable, but by navigating trade-offs between time and attention, effort and comfort, flexibility and predictability, exposure and protection, individual needs and social norms.
 
+---
+
+## III - Motility: Mobility as Capacity
+
 Several frameworks attempt to explain how these trade-offs are navigated in practice.  
 One of the most useful is **motility**, proposed by sociologist [Vincent Kaufmann](https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.0309-1317.2004.00549.x). (accessible freely via sci-hub)
 
@@ -40,6 +52,10 @@ It is shaped by three dimensions: **access** to transport options, **competence*
 
 Modal choice emerges from the interaction of these three factors, not from abstract efficiency.  
 A mode can be objectively fast or cheap and still remain unused if it feels unsafe, unfamiliar, or socially misaligned.
+
+---
+
+## IV - Why Cars Feel “Efficient”
 
 Car dominance is therefore not only the result of infrastructure.  
 It is reinforced by learned competence, cultural norms, and decades of design that have made the car the default solution for everyday mobility.
@@ -53,10 +69,20 @@ They function as a privacy bubble, allowing control over sound, temperature, pac
 They offer flexibility, enabling trip chaining, detours, and unplanned tasks without additional planning.  
 They also shape time perception: driving often feels shorter than waiting, transferring, or coordinating schedules.
 
+---
+
+## V - Time, Effort, and Generalized Speed
+
+
 This is why **faster vehicles do not always save time** in practice: urban sprawl and longer trip distances often erase speed gains.  
 Efficiency is not just about energy demand but also total effort, convenience, and real-world experience.
+
 To push this furter, we can use the notion of **generalized speed** of [Ivan Illich](https://fr.wikipedia.org/wiki/Ivan_Illich#Concept_de_vitesse_g%C3%A9n%C3%A9ralis%C3%A9e) which look at all the time (notably the working time to finance a vehicle) to cover a given distance. The result is generally painful with generalized speed rarely above 30 kmh with lower income class being more penalized.
 
+
+---
+
+## VI - Justice and Design Responsibility
 From a justice perspective, this matters.  
 A system optimized for an “average” user often shifts costs onto others: non-drivers, children, the elderly, or those who don’t match the average.  
 What appears efficient on paper may be unfair in practice.
