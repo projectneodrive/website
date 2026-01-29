@@ -47,7 +47,7 @@ but:
 
 ## II - Moloch
 
-Unchecked competition often produces what (Scott Alexander describes as **Moloch traps**)[https://www.lesswrong.com/posts/TxcRbCYHaeL59aY7E/meditations-on-moloch]:  
+Unchecked competition often produces what (Scott Alexander describes as **Moloch traps**)[https://www.slatestarcodexabridged.com/Meditations-On-Moloch]:  
 situations where individually rational choices lead to collectively worse outcomes.
 
 Classic examples include:
@@ -94,10 +94,11 @@ Any véli must survive three brutal comparisons:
 If a véli is only *slightly* better on a few dimensions, it loses.
 
 As Philippe Meda argues in  
-[“The Véli Question: Can a ‘good’ idea become a market?”](https://www.slatestarcodexabridged.com/Meditations-On-Moloch)  
+[“The Véli Question: Can a ‘good’ idea become a market?”](https://www.icopilots.com/the-veli-question-can-a-good-idea-become-a-market/)  
 markets do not buy virtue. They buy outcomes.
 
 ---
+
 ## IV - Reframing the Problem: Who Pays, Who Uses, Who Benefits
 
 A useful way to de-romanticize mobility is to split roles.
@@ -123,6 +124,7 @@ Cars collapse these roles into one illusion:
 *the user thinks they pay the full cost, but they don’t.*
 
 ---
+
 ## V - Economic Choice Under Real-Life Constraints
 
 This builds on the motility framework introduced earlier.  
@@ -132,13 +134,14 @@ What follows focuses strictly on **cost structures, substitution thresholds, and
 People do not choose mobility modes by optimizing energy, speed, or emissions.  
 They choose among **viable options** given their income, habits, household structure, and coordination needs.
 
+---
+
 ### 1 - A few Household Mobility Scenarios, Public Transport, and Feasible Choices
 
 Mobility choices emerge from the interaction between **public transport pricing**, **coordination needs**, and **redundancy costs**.
 Public transport can either simplify life by replacing cars or, paradoxically, make alternatives harder to justify once it is already paid for.
 We describe a few broad category. they are not exaustive and come along a spectrum of individual with unique lives but will help for this argument.
 
----
 
 #### A) Dense urban, aligned life  
 Home, work, and social life are concentrated within a dense urban fabric, with frequent and reliable public transport.
@@ -153,7 +156,6 @@ Once the subscription is paid, marginal trips feel “free,” lowering the ince
 Economically and functionally, the bike-PT system already dominates.  
 A véli struggles to justify itself unless it replaces specific trips that PT handles poorly (time, comfort, reliability), which is rare in this context.
 
----
 
 #### B) City-to-city commuter  
 Regular long-distance travel between major urban centers.
@@ -166,7 +168,6 @@ Once paid, it crowds out intermediate solutions: adding a light vehicle does not
 
 Light vehicles do not compete here - neither economically nor cognitively.
 
----
 
 #### C) Peri-urban or rural household  
 Dispersed activities, weaker public transport, overlapping schedules.
@@ -234,6 +235,7 @@ This window defines upper bounds on:
 These are not design preferences.  
 They are **economic thresholds**.
 
+---
 
 ### 4 - Economic Implication for Neodrive
 
@@ -308,6 +310,7 @@ then no amount of ethical intent or technical elegance will compensate.
 Markets do not negotiate with good intentions. 
 They only respond to relieved constraints.
 
+---
 
 ## VI - Industrial Reality and Value Lock-In
 
@@ -373,7 +376,7 @@ We aim to explore whether a vehicle can:
 
 all of that to get a foodhold to drive the economy of scale lower and hopefully start to replace the rest of the cars by being brutally cheaper.
 
-In practive that mean designing a vehicle that (can cost less than 5k CHF from a volume of a dozens per years.)[https://www.youtube.com/watch?v=XAYhNHhxN0A]
+In practive that mean designing a vehicle that [can cost less than 5k CHF from a volume of a dozens per years.](https://www.youtube.com/watch?v=XAYhNHhxN0A)
 
 ---
 
