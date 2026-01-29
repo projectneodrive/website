@@ -4,8 +4,6 @@ weight: 10
 url: "/problem/"
 ---
 
-# Cars are the wrong tool for most trips
-
 Private cars account for approximately **13% of Europe’s total greenhouse gas emissions**.  
 Yet climate impact is only part of the problem.
 

@@ -8,7 +8,7 @@ There are the laws of men, and the laws of nature. The latter cannot be broken.
 **Dura lex, sed lex!**
 At human scale, a few parameters dominate almost everything.  
 
-# I - Mass matters everywhere
+## I - Mass matters everywhere
 
 Weight drives almost everything: the resources needed to build a vehicle, the energy required for every acceleration, climb, or stop.  
 It increases rolling resistance, amplifies non-exhaust pollution, and multiplies the energy involved in crashes.  
@@ -16,7 +16,7 @@ It increases rolling resistance, amplifies non-exhaust pollution, and multiplies
 Reducing mass is one of the most effective ways to reduce environmental and safety impact across the system.  
 Higher mass requires heavier tires, often with worse rolling resistance, which compounds the inefficiency.
 
-# II -Speed is expensive
+## II -Speed is expensive
 
 Aerodynamic drag grows with the square of speed, and the power required to overcome it grows with the cube.
 Some automakers historically ignored aerodynamics, hoping to brute-force physics with bigger engines.
@@ -27,20 +27,20 @@ As Enzo Ferrari famously quipped:
 We can now gently remind Signor Ferrari that drag grows with the **square** of speed, engine power grows linearly at best, and thus, horsepower cannot escape air resistance. 
 Shape and frontal area matters more.
 
-# III - Aerodynamics matter sooner than intuition suggests
+## III - Aerodynamics matter sooner than intuition suggests
 
 At 20–30 km/h, drag dominates rolling resistance aldready.  
 Frontal area, flow separation, and shape are just as important as drivetrain efficiency.  
 Lightweight, slender designs reduce energy use before even touching the question of energy storage.
 
-# IV - Powertrain efficiency
+## IV - Powertrain efficiency
 
 Thermal engines are inherently limited: about 20% efficient at best.  
 Electric motors can exceed 80% efficiency, dramatically reducing the energy cost per kilometer.
 But as we saw with EV, power train efficiency alone does not solve the issue. 
 Plus rebound effect for the embodied energy required by the now even heavier and ressource intensive vehicle mitigate a lot of the benefit...
 
-# V - Safety
+## V - Safety
 
 Imagine driving a tank: you may feel invincible inside, but everyone around you is in danger.  
 A heavier car may protect its occupants, but collisions with lighter vehicles or users transfer enormous energy.  
@@ -49,7 +49,7 @@ Since collision energy grows with mass and the square of speed, **speed matters 
 Designing for safety is therefore an ethical as well as technical problem:  
 we cannot optimize only for occupants without considering others.  
 
-# VI - Range and energy storage
+## VI - Range and energy storage
 
 Batteries are not perfect, they are like chemotherapy: not harmless, but necessary in some context.  
 The “poison” is proportional to how much you carry. Massive batteries increase rare-earth extraction, weight penalties, and inefficiency.  

@@ -12,7 +12,7 @@ Ignoring them does not make them disappear; This page is an attempt to take thos
 
 ---
 
-# I - Markets are Mercyless
+## I - Markets are Mercyless
 
 Markets do not optimize for justice, sustainability, or long-term collective outcomes but only for pareto-efficiency.  
 They optimize only under strict assumptions:
@@ -45,7 +45,7 @@ but:
 
 ---
 
-# II - Moloch
+## II - Moloch
 
 Unchecked competition often produces what (Scott Alexander describes as **Moloch traps**)[https://www.lesswrong.com/posts/TxcRbCYHaeL59aY7E/meditations-on-moloch]:  
 situations where individually rational choices lead to collectively worse outcomes.
@@ -71,7 +71,7 @@ Don't blame the players, blame the rules...
 
 ---
 
-# III - The Véli Paradox: Too Late, Too Early
+## III - The Véli Paradox: Too Late, Too Early
 
 The emergence of *véli* (véhicules intermédiaires légers) or LEVs across Europe is not accidental.  
 They respond to a real discomfort: cars are oversized for daily life, yet alternatives feel incomplete.
@@ -98,7 +98,7 @@ As Philippe Meda argues in
 markets do not buy virtue. They buy outcomes.
 
 ---
-# IV - Reframing the Problem: Who Pays, Who Uses, Who Benefits
+## IV - Reframing the Problem: Who Pays, Who Uses, Who Benefits
 
 A useful way to de-romanticize mobility is to split roles.
 
@@ -123,7 +123,7 @@ Cars collapse these roles into one illusion:
 *the user thinks they pay the full cost, but they don’t.*
 
 ---
-# V - Economic Choice Under Real-Life Constraints
+## V - Economic Choice Under Real-Life Constraints
 
 This builds on the motility framework introduced earlier.  
 We treat **access, competence, and appropriation** as given constraints that shape economic behavior.  
@@ -309,7 +309,7 @@ Markets do not negotiate with good intentions.
 They only respond to relieved constraints.
 
 
-# VI - Industrial Reality and Value Lock-In
+## VI - Industrial Reality and Value Lock-In
 
 Cars are cheap not because they are elegant.  
 They are cheap because they are **standardized mistakes produced billions of times**.
@@ -339,7 +339,7 @@ A unperfect vehicle that lasts 20 years beats a beautiful and expensive one that
 
 ---
 
-# VII - Ethics Without Illusions
+## VII - Ethics Without Illusions
 
 Markets do not reward virtue.  
 They sometimes tolerate it when it is cheap.
@@ -357,7 +357,7 @@ Ethics are just extra constraints (economically speaking), and moral is not rewa
 
 ---
 
-# VIII - What Neodrive Is Actually Trying to Prove
+## VIII - What Neodrive Is Actually Trying to Prove
 
 Neodrive is not a promise.  
 It is a test.

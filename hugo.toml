@@ -209,7 +209,7 @@ disableHugoGeneratorInject = false
   weight     = 70
   
 [[menu.main]]
-  identifier = "mk1"
-  name       = "vehicle mk1"
-  url        = "/mk1/"
+  identifier = "vehicles"
+  name       = "Vehicles"
+  url        = "/vehicles/"
   weight     = 80
