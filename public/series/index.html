@@ -75,13 +75,21 @@
 
 
 
+
+<script src="http://localhost:1313/js/lucide.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    lucide.createIcons();
+  });
+</script>
+
         <style>
              
             body::before {
                 content: '';
                 position: fixed;
-                top: 0;
-                left: 0;
+                bottom: 50px;
+                right: 50px;
                 width: 100%;
                 height: 100%;
                 pointer-events: none;
@@ -90,10 +98,10 @@
 
             .diagonal-bars-container {
                 position: fixed;
-                top: 0;
+                bottom: -1vmin;
                 left: 0;
                 width: 100%;
-                height: 100vh;
+                height: 50vh;
                 pointer-events: none;
                 z-index: -1;
                 overflow: hidden;
@@ -101,31 +109,32 @@
 
             .diagonal-bar {
                 position: absolute;
-                width: 2vw;
+                width: 1.5vmin;
                 height: 200vh;
                 transform: rotate(45deg);
-                top: -50vh;
-                opacity: 0.5;
+                transform-origin: bottom center;
+                bottom: 0;
+                opacity: 0.2;
             }
 
             .diagonal-bar:nth-child(1) {
-                background-color: #8c52ff;
-                left: calc(1.5 * 4 * 2vw*0);
+                background-color: #fca02b;
+                right: calc(1.5 * 8 * 1.5vmin);
             }
 
             .diagonal-bar:nth-child(2) {
-                background-color: #38b6ff;
-                left: calc(1.5 * 4 * 2vw + 4 * 2vw);
+                background-color: #00bf63;
+                right: calc(1.5 * 8 * 1.5vmin + 6 * 1.5vmin);
             }
 
             .diagonal-bar:nth-child(3) {
-                background-color: #00bf63;
-                left: calc(1.5 * 4 * 2vw + 8 * 2vw);
+                background-color: #38b6ff;
+                right: calc(1.5 * 8 * 1.5vmin + 12 * 1.5vmin);
             }
 
             .diagonal-bar:nth-child(4) {
-                background-color: #fca02b;
-                left: calc(1.5 * 4 * 2vw + 12 * 2vw);
+                background-color: #8c52ff;
+                right: calc(1.5 * 8 * 1.5vmin + 18 * 1.5vmin);
             }
         </style>
     </head>
