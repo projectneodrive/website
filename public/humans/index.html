@@ -8,7 +8,7 @@
 <meta name="author" content="">
 <meta name="description" content="Mobility is not only a technical problem.
 It is a question of values and human needs.
-Every transport system optimizes something: speed, cost, energy, comfort, safety.
+I - Optimization Is Never Neutral Every transport system optimizes something: speed, cost, energy, comfort, safety.
 As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.
 Some variables are relatively objective: travel time, distance, energy use, cost, injury per km.
 Others are deeply subjective: perceived time, comfort, effort, stress, sense of safety, dignity, autonomy.
@@ -48,11 +48,11 @@ Others are deeply subjective: perceived time, comfort, effort, stress, sense of 
   <meta itemprop="name" content="Designing for Humans">
   <meta itemprop="description" content="Mobility is not only a technical problem.
 It is a question of values and human needs.
-Every transport system optimizes something: speed, cost, energy, comfort, safety.
+I - Optimization Is Never Neutral Every transport system optimizes something: speed, cost, energy, comfort, safety.
 As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.
 Some variables are relatively objective: travel time, distance, energy use, cost, injury per km.
 Others are deeply subjective: perceived time, comfort, effort, stress, sense of safety, dignity, autonomy.">
-  <meta itemprop="wordCount" content="726">
+  <meta itemprop="wordCount" content="761">
   <meta itemprop="image" content="http://localhost:1313/">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -60,7 +60,7 @@ Others are deeply subjective: perceived time, comfort, effort, stress, sense of 
   <meta name="twitter:title" content="Designing for Humans">
   <meta name="twitter:description" content="Mobility is not only a technical problem.
 It is a question of values and human needs.
-Every transport system optimizes something: speed, cost, energy, comfort, safety.
+I - Optimization Is Never Neutral Every transport system optimizes something: speed, cost, energy, comfort, safety.
 As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.
 Some variables are relatively objective: travel time, distance, energy use, cost, injury per km.
 Others are deeply subjective: perceived time, comfort, effort, stress, sense of safety, dignity, autonomy.">
@@ -72,7 +72,7 @@ Others are deeply subjective: perceived time, comfort, effort, stress, sense of 
   <meta property="og:title" content="Designing for Humans">
   <meta property="og:description" content="Mobility is not only a technical problem.
 It is a question of values and human needs.
-Every transport system optimizes something: speed, cost, energy, comfort, safety.
+I - Optimization Is Never Neutral Every transport system optimizes something: speed, cost, energy, comfort, safety.
 As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.
 Some variables are relatively objective: travel time, distance, energy use, cost, injury per km.
 Others are deeply subjective: perceived time, comfort, effort, stress, sense of safety, dignity, autonomy.">
@@ -96,10 +96,70 @@ Others are deeply subjective: perceived time, comfort, effort, stress, sense of 
 
 
 
+        <style>
+             
+            body::before {
+                content: '';
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            .diagonal-bars-container {
+                position: fixed;
+                bottom: -1vmin;
+                left: 0;
+                width: 100%;
+                height: 50vh;
+                pointer-events: none;
+                z-index: -1;
+                overflow: hidden;
+            }
+
+            .diagonal-bar {
+                position: absolute;
+                width: 1.5vmin;
+                height: 200vh;
+                transform: rotate(45deg);
+                transform-origin: bottom center;
+                bottom: 0;
+                opacity: 0.2;
+            }
+
+            .diagonal-bar:nth-child(1) {
+                background-color: #fca02b;
+                right: calc(1.5 * 8 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(2) {
+                background-color: #00bf63;
+                right: calc(1.5 * 8 * 1.5vmin + 6 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(3) {
+                background-color: #38b6ff;
+                right: calc(1.5 * 8 * 1.5vmin + 12 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(4) {
+                background-color: #8c52ff;
+                right: calc(1.5 * 8 * 1.5vmin + 18 * 1.5vmin);
+            }
+        </style>
     </head>
 
     
         <body>
+            <div class="diagonal-bars-container">
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+            </div>
     
     
         <div class="container">
@@ -123,7 +183,7 @@ Others are deeply subjective: perceived time, comfort, effort, stress, sense of 
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="http://localhost:1313/">Home</a></li><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li>
+    <ul class="menu__inner"><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li><li><a href="http://localhost:1313/vehicles/">Vehicles</a></li>
     </ul>
 </nav>
 
@@ -163,6 +223,8 @@ Others are deeply subjective: perceived time, comfort, effort, stress, sense of 
                 <div class="post-content">
                     <p>Mobility is not only a technical problem.<br>
 It is a question of values and human needs.</p>
+<hr>
+<h2 id="i---optimization-is-never-neutral">I - Optimization Is Never Neutral</h2>
 <p>Every transport system optimizes something: speed, cost, energy, comfort, safety.<br>
 As soon as we compare these dimensions, we make a choice about what matters more, and that choice is never neutral.</p>
 <p>Some variables are relatively <strong>objective</strong>: travel time, distance, energy use, cost, injury per km.<br>
@@ -174,18 +236,24 @@ How much discomfort is acceptable in exchange for efficiency?</p>
 <p>There is no universal answer.<br>
 Assigning weights to these dimensions is a <strong>value judgment</strong>, not a scientific fact.<br>
 Pretending otherwise is a form of dishonesty often hidden behind “optimization.”</p>
+<hr>
+<h2 id="ii---what-cannot-be-measured-still-matters">II - What Cannot Be Measured Still Matters</h2>
 <p>The problem is made harder by measurement.<br>
 Many of the most important variables like mental load, perceived safety, familiarity, fatigue, or the ability to focus on other tasks cannot be reliably quantified, even though they strongly shape behavior.</p>
 <p>Ignoring them because they are hard to measure does not make them disappear.<br>
 It only guarantees poor design.</p>
 <p>Human mobility is multi-dimensional.<br>
 People choose modes of transport not by maximizing a single variable, but by navigating trade-offs between time and attention, effort and comfort, flexibility and predictability, exposure and protection, individual needs and social norms.</p>
+<hr>
+<h2 id="iii---motility-mobility-as-capacity">III - Motility: Mobility as Capacity</h2>
 <p>Several frameworks attempt to explain how these trade-offs are navigated in practice.<br>
-One of the most useful is <strong>motility</strong>, proposed by sociologist Vincent Kaufmann.</p>
+One of the most useful is <strong>motility</strong>, proposed by sociologist <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.0309-1317.2004.00549.x">Vincent Kaufmann</a>. (accessible freely via sci-hub)</p>
 <p>Motility describes mobility not as movement itself, but as a form of <strong>capacity</strong>.<br>
 It is shaped by three dimensions: <strong>access</strong> to transport options, <strong>competence</strong> to use them confidently, and <strong>appropriation</strong>, the extent to which a mode feels legitimate, acceptable, or “for me.”</p>
 <p>Modal choice emerges from the interaction of these three factors, not from abstract efficiency.<br>
 A mode can be objectively fast or cheap and still remain unused if it feels unsafe, unfamiliar, or socially misaligned.</p>
+<hr>
+<h2 id="iv---why-cars-feel-efficient">IV - Why Cars Feel “Efficient”</h2>
 <p>Car dominance is therefore not only the result of infrastructure.<br>
 It is reinforced by learned competence, cultural norms, and decades of design that have made the car the default solution for everyday mobility.</p>
 <p>Within this context, the persistence of car use becomes easier to understand.</p>
@@ -195,16 +263,13 @@ They provide an enclosed and predictable environment that increases perceived sa
 They function as a privacy bubble, allowing control over sound, temperature, pace, and social exposure.<br>
 They offer flexibility, enabling trip chaining, detours, and unplanned tasks without additional planning.<br>
 They also shape time perception: driving often feels shorter than waiting, transferring, or coordinating schedules.</p>
+<hr>
+<h2 id="v---time-effort-and-generalized-speed">V - Time, Effort, and Generalized Speed</h2>
 <p>This is why <strong>faster vehicles do not always save time</strong> in practice: urban sprawl and longer trip distances often erase speed gains.<br>
-Efficiency is not just about top speed—it is about total effort, convenience, and real-world experience.</p>
-<p>People also make trade-offs based on social and psychological factors:</p>
-<ul>
-<li>Choosing a slightly longer train trip to read, relax, or work.</li>
-<li>Accepting a slower e-bike ride if it reduces stress and exposure.</li>
-<li>Planning trips to match personal routines, rather than absolute speed.</li>
-</ul>
-<p>These advantages are not irrational preferences.<br>
-They are rational responses to a mobility system built around the car for decades.</p>
+Efficiency is not just about energy demand but also total effort, convenience, and real-world experience.</p>
+<p>To push this furter, we can use the notion of <strong>generalized speed</strong> of <a href="https://fr.wikipedia.org/wiki/Ivan_Illich#Concept_de_vitesse_g%C3%A9n%C3%A9ralis%C3%A9e">Ivan Illich</a> which look at all the time (notably the working time to finance a vehicle) to cover a given distance. The result is generally painful with generalized speed rarely above 30 kmh with lower income class being more penalized.</p>
+<hr>
+<h2 id="vi---justice-and-design-responsibility">VI - Justice and Design Responsibility</h2>
 <p>From a justice perspective, this matters.<br>
 A system optimized for an “average” user often shifts costs onto others: non-drivers, children, the elderly, or those who don’t match the average.<br>
 What appears efficient on paper may be unfair in practice.</p>
@@ -212,7 +277,7 @@ What appears efficient on paper may be unfair in practice.</p>
 We do not assume that energy efficiency alone defines what is better.</p>
 <p>Instead, we acknowledge the existence of these variables and treat them as real design constraints.<br>
 Our goal is not to eliminate trade-offs, but to <strong>design with them consciously</strong>, addressing <strong>true human needs without indulging in excess</strong>.</p>
-<p>By iterating on real vehicles with real users, we observe how changes in design affect access, competence, and appropriation—not just performance metrics.</p>
+<p>By iterating on real vehicles with real users, we observe how changes in design affect access, competence, and appropriation. Not just performance metrics.</p>
 <p>Designing for humans means accepting uncertainty, resisting false optimization, and refusing to treat subjective experience as secondary.</p>
 <p>Efficiency matters.<br>
 So does dignity.<br>

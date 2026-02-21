@@ -75,10 +75,69 @@
 
 
 
+        <style>
+             
+            body::before {
+                content: '';
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            .diagonal-bars-container {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100vh;
+                pointer-events: none;
+                z-index: -1;
+                overflow: hidden;
+            }
+
+            .diagonal-bar {
+                position: absolute;
+                width: 2vw;
+                height: 200vh;
+                transform: rotate(45deg);
+                top: -50vh;
+                opacity: 0.5;
+            }
+
+            .diagonal-bar:nth-child(1) {
+                background-color: #8c52ff;
+                left: calc(1.5 * 4 * 2vw*0);
+            }
+
+            .diagonal-bar:nth-child(2) {
+                background-color: #38b6ff;
+                left: calc(1.5 * 4 * 2vw + 4 * 2vw);
+            }
+
+            .diagonal-bar:nth-child(3) {
+                background-color: #00bf63;
+                left: calc(1.5 * 4 * 2vw + 8 * 2vw);
+            }
+
+            .diagonal-bar:nth-child(4) {
+                background-color: #fca02b;
+                left: calc(1.5 * 4 * 2vw + 12 * 2vw);
+            }
+        </style>
     </head>
 
     
         <body>
+            <div class="diagonal-bars-container">
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+            </div>
     
     
         <div class="container">
@@ -102,7 +161,7 @@
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="http://localhost:1313/">Home</a></li><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li>
+    <ul class="menu__inner"><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li><li><a href="http://localhost:1313/vehicles/">Vehicles</a></li>
     </ul>
 </nav>
 

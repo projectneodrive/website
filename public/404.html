@@ -74,10 +74,70 @@
 
 
 
+        <style>
+             
+            body::before {
+                content: '';
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            .diagonal-bars-container {
+                position: fixed;
+                bottom: -1vmin;
+                left: 0;
+                width: 100%;
+                height: 50vh;
+                pointer-events: none;
+                z-index: -1;
+                overflow: hidden;
+            }
+
+            .diagonal-bar {
+                position: absolute;
+                width: 1.5vmin;
+                height: 200vh;
+                transform: rotate(45deg);
+                transform-origin: bottom center;
+                bottom: 0;
+                opacity: 0.2;
+            }
+
+            .diagonal-bar:nth-child(1) {
+                background-color: #fca02b;
+                right: calc(1.5 * 8 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(2) {
+                background-color: #00bf63;
+                right: calc(1.5 * 8 * 1.5vmin + 6 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(3) {
+                background-color: #38b6ff;
+                right: calc(1.5 * 8 * 1.5vmin + 12 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(4) {
+                background-color: #8c52ff;
+                right: calc(1.5 * 8 * 1.5vmin + 18 * 1.5vmin);
+            }
+        </style>
     </head>
 
     
         <body>
+            <div class="diagonal-bars-container">
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+            </div>
     
     
         <div class="container">
@@ -101,7 +161,7 @@
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="http://localhost:1313/">Home</a></li><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li>
+    <ul class="menu__inner"><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li><li><a href="http://localhost:1313/vehicles/">Vehicles</a></li>
     </ul>
 </nav>
 

@@ -6,12 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Cars are the wrong tool for most trips Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
+<meta name="description" content="Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
 Yet climate impact is only part of the problem.
-For everyday mobility, cars are fundamentally inefficient.
+For everyday mobility, cars are fundamentally inefficient and oversized.
 A typical car consumes around 10 to 100 times more energy per kilometer than a bicycle, while carrying on average 1.4 people in a 5-seat vehicle.
-80% of trips in Europe are under 10 km.
-These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.
+Most of the climate impact of cars comes from ordinary daily use: roughly 80% of car kilometres and thus emissions, are accumulated on days with less than 50 km of driving. These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.
 " />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
@@ -46,36 +45,33 @@ These journeys rarely require long range, high speed, or large payloads, yet the
 
 
   <meta itemprop="name" content="Problem">
-  <meta itemprop="description" content="Cars are the wrong tool for most trips Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
+  <meta itemprop="description" content="Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
 Yet climate impact is only part of the problem.
-For everyday mobility, cars are fundamentally inefficient.
+For everyday mobility, cars are fundamentally inefficient and oversized.
 A typical car consumes around 10 to 100 times more energy per kilometer than a bicycle, while carrying on average 1.4 people in a 5-seat vehicle.
-80% of trips in Europe are under 10 km.
-These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.">
-  <meta itemprop="wordCount" content="264">
+Most of the climate impact of cars comes from ordinary daily use: roughly 80% of car kilometres and thus emissions, are accumulated on days with less than 50 km of driving. These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.">
+  <meta itemprop="wordCount" content="317">
   <meta itemprop="image" content="http://localhost:1313/">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/">
   <meta name="twitter:title" content="Problem">
-  <meta name="twitter:description" content="Cars are the wrong tool for most trips Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
+  <meta name="twitter:description" content="Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
 Yet climate impact is only part of the problem.
-For everyday mobility, cars are fundamentally inefficient.
+For everyday mobility, cars are fundamentally inefficient and oversized.
 A typical car consumes around 10 to 100 times more energy per kilometer than a bicycle, while carrying on average 1.4 people in a 5-seat vehicle.
-80% of trips in Europe are under 10 km.
-These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.">
+Most of the climate impact of cars comes from ordinary daily use: roughly 80% of car kilometres and thus emissions, are accumulated on days with less than 50 km of driving. These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.">
 
 
 
     <meta property="og:url" content="http://localhost:1313/problem/">
   <meta property="og:site_name" content="Project Neodrive">
   <meta property="og:title" content="Problem">
-  <meta property="og:description" content="Cars are the wrong tool for most trips Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
+  <meta property="og:description" content="Private cars account for approximately 13% of Europe’s total greenhouse gas emissions.
 Yet climate impact is only part of the problem.
-For everyday mobility, cars are fundamentally inefficient.
+For everyday mobility, cars are fundamentally inefficient and oversized.
 A typical car consumes around 10 to 100 times more energy per kilometer than a bicycle, while carrying on average 1.4 people in a 5-seat vehicle.
-80% of trips in Europe are under 10 km.
-These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.">
+Most of the climate impact of cars comes from ordinary daily use: roughly 80% of car kilometres and thus emissions, are accumulated on days with less than 50 km of driving. These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="og:image" content="http://localhost:1313/">
@@ -96,10 +92,70 @@ These journeys rarely require long range, high speed, or large payloads, yet the
 
 
 
+        <style>
+             
+            body::before {
+                content: '';
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            .diagonal-bars-container {
+                position: fixed;
+                bottom: -1vmin;
+                left: 0;
+                width: 100%;
+                height: 50vh;
+                pointer-events: none;
+                z-index: -1;
+                overflow: hidden;
+            }
+
+            .diagonal-bar {
+                position: absolute;
+                width: 1.5vmin;
+                height: 200vh;
+                transform: rotate(45deg);
+                transform-origin: bottom center;
+                bottom: 0;
+                opacity: 0.2;
+            }
+
+            .diagonal-bar:nth-child(1) {
+                background-color: #fca02b;
+                right: calc(1.5 * 8 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(2) {
+                background-color: #00bf63;
+                right: calc(1.5 * 8 * 1.5vmin + 6 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(3) {
+                background-color: #38b6ff;
+                right: calc(1.5 * 8 * 1.5vmin + 12 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(4) {
+                background-color: #8c52ff;
+                right: calc(1.5 * 8 * 1.5vmin + 18 * 1.5vmin);
+            }
+        </style>
     </head>
 
     
         <body>
+            <div class="diagonal-bars-container">
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+            </div>
     
     
         <div class="container">
@@ -123,7 +179,7 @@ These journeys rarely require long range, high speed, or large payloads, yet the
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="http://localhost:1313/">Home</a></li><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li>
+    <ul class="menu__inner"><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li><li><a href="http://localhost:1313/vehicles/">Vehicles</a></li>
     </ul>
 </nav>
 
@@ -161,23 +217,23 @@ These journeys rarely require long range, high speed, or large payloads, yet the
                 
 
                 <div class="post-content">
-                    <h1 id="cars-are-the-wrong-tool-for-most-trips">Cars are the wrong tool for most trips</h1>
-<p>Private cars account for approximately <strong>13% of Europe’s total greenhouse gas emissions</strong>.<br>
+                    <p>Private cars account for approximately <strong>13% of Europe’s total greenhouse gas emissions</strong>.<br>
 Yet climate impact is only part of the problem.</p>
-<p>For everyday mobility, cars are fundamentally inefficient.<br>
+<p>For everyday mobility, cars are fundamentally inefficient and oversized.<br>
 A typical car consumes <strong>around 10 to 100 times more energy per kilometer</strong> than a bicycle, while carrying on average <strong>1.4 people in a 5-seat vehicle</strong>.</p>
-<p><strong>80% of trips in Europe are under 10 km.</strong><br>
+<p><strong>Most of the climate impact of cars comes from ordinary daily use: <a href="https://wiki.unece.org/download/attachments/34209806/EVE-19-06e.pdf">roughly 80% of car kilometres and thus emissions, are accumulated on days with less than 50 km of driving.</a></strong>
 These journeys rarely require long range, high speed, or large payloads, yet they are made with vehicles weighing over a ton and designed for highways.</p>
 <p>This mismatch creates cascading effects:</p>
 <ul>
-<li><strong>Traffic congestion</strong>, because large vehicles occupy too much space for the number of people moved.</li>
+<li><strong>Traffic congestion</strong>, because large vehicles occupy too much road space compared the number of people moved.</li>
 <li><strong>Parking shortages</strong>, as each trip requires storage at both ends.</li>
 <li><strong>Noise and danger</strong>, particularly in dense urban environments.</li>
 </ul>
 <p>Cars also impose a heavy <strong>land footprint</strong>.<br>
-Roads, parking spaces, and safety margins reshape cities around the car’s worst-case size. Urban space is consumed not by movement, but by stationary vehicles, pushing destinations farther apart and reinforcing car dependency.</p>
-<p>Alternatives for short trips exist like bikes and e-bikes or public transport yet they are <strong>not widely adopted</strong>.<br>
-This is not a failure of individuals, but of systems and design. Habits and value lock-in, perceived safety in traffic, physical effort, exposure to weather, time variability, and the cognitive load of trip chaining all favor the car, even when it is inefficient.</p>
+Roads, parking spaces, and safety margins reshape cities around the car’s worst-case size. Urban space is consumed by vehicles, pushing destinations farther apart and reinforcing car dependency.</p>
+<p>Alternatives for short trips exist like bikes and e-bikes or public transport yet they are <strong>not widely adopted</strong>.
+Furthermore, in rural areas, options are often even more limited: low population density can make public transport economically unviable, and distances are often too great for bikes or e-bikes to be practical.
+This is not a failure of individuals, but of systems and design: in cities, habits, perceived safety, physical effort, exposure to weather, time variability, and the cognitive load of trip chaining favor the car; in rural areas, long distances and limited transport options make it the only feasible choice, even if inefficient.</p>
 <p>The core issue is not that people choose cars.<br>
 It is that <strong>cars have become the default solution to problems they were never meant to solve</strong>.</p>
 <hr>

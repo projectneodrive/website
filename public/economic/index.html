@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="author" content="">
-<meta name="description" content="Building a sustainable mobility system isn’t just a question of physics or engineering, it’s a question of incentives, resources, and coordination. Capitalism and free markets and funding all impose more hard constraints that we have to solve.
-Markets Are Mercyless Markets only produce efficient outcomes under very strong conditions : when competition is fair, information is perfect, and incentives align. Even then, efficiency (Pareto optimality) doesn’t guarantee fairness or justice.
+<meta name="description" content="Building a sustainable mobility system is not primarily a question of physics or engineering.
+It is a question of incentives, lock-in, capital allocation, and coordination.
+Markets, capitalism, and funding mechanisms impose hard constraints. Ignoring them does not make them disappear; This page is an attempt to take those constraints seriously, not to complain about them, but to design within them.
+I - Markets are Mercyless Markets do not optimize for justice, sustainability, or long-term collective outcomes but only for pareto-efficiency.
+They optimize only under strict assumptions:
 " />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
@@ -42,24 +45,33 @@ Markets Are Mercyless Markets only produce efficient outcomes under very strong 
 
 
   <meta itemprop="name" content="Making It Viable">
-  <meta itemprop="description" content="Building a sustainable mobility system isn’t just a question of physics or engineering, it’s a question of incentives, resources, and coordination. Capitalism and free markets and funding all impose more hard constraints that we have to solve.
-Markets Are Mercyless Markets only produce efficient outcomes under very strong conditions : when competition is fair, information is perfect, and incentives align. Even then, efficiency (Pareto optimality) doesn’t guarantee fairness or justice.">
-  <meta itemprop="wordCount" content="224">
+  <meta itemprop="description" content="Building a sustainable mobility system is not primarily a question of physics or engineering.
+It is a question of incentives, lock-in, capital allocation, and coordination.
+Markets, capitalism, and funding mechanisms impose hard constraints. Ignoring them does not make them disappear; This page is an attempt to take those constraints seriously, not to complain about them, but to design within them.
+I - Markets are Mercyless Markets do not optimize for justice, sustainability, or long-term collective outcomes but only for pareto-efficiency.
+They optimize only under strict assumptions:">
+  <meta itemprop="wordCount" content="1740">
   <meta itemprop="image" content="http://localhost:1313/">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/">
   <meta name="twitter:title" content="Making It Viable">
-  <meta name="twitter:description" content="Building a sustainable mobility system isn’t just a question of physics or engineering, it’s a question of incentives, resources, and coordination. Capitalism and free markets and funding all impose more hard constraints that we have to solve.
-Markets Are Mercyless Markets only produce efficient outcomes under very strong conditions : when competition is fair, information is perfect, and incentives align. Even then, efficiency (Pareto optimality) doesn’t guarantee fairness or justice.">
+  <meta name="twitter:description" content="Building a sustainable mobility system is not primarily a question of physics or engineering.
+It is a question of incentives, lock-in, capital allocation, and coordination.
+Markets, capitalism, and funding mechanisms impose hard constraints. Ignoring them does not make them disappear; This page is an attempt to take those constraints seriously, not to complain about them, but to design within them.
+I - Markets are Mercyless Markets do not optimize for justice, sustainability, or long-term collective outcomes but only for pareto-efficiency.
+They optimize only under strict assumptions:">
 
 
 
     <meta property="og:url" content="http://localhost:1313/economic/">
   <meta property="og:site_name" content="Project Neodrive">
   <meta property="og:title" content="Making It Viable">
-  <meta property="og:description" content="Building a sustainable mobility system isn’t just a question of physics or engineering, it’s a question of incentives, resources, and coordination. Capitalism and free markets and funding all impose more hard constraints that we have to solve.
-Markets Are Mercyless Markets only produce efficient outcomes under very strong conditions : when competition is fair, information is perfect, and incentives align. Even then, efficiency (Pareto optimality) doesn’t guarantee fairness or justice.">
+  <meta property="og:description" content="Building a sustainable mobility system is not primarily a question of physics or engineering.
+It is a question of incentives, lock-in, capital allocation, and coordination.
+Markets, capitalism, and funding mechanisms impose hard constraints. Ignoring them does not make them disappear; This page is an attempt to take those constraints seriously, not to complain about them, but to design within them.
+I - Markets are Mercyless Markets do not optimize for justice, sustainability, or long-term collective outcomes but only for pareto-efficiency.
+They optimize only under strict assumptions:">
   <meta property="og:locale" content="en_us">
   <meta property="og:type" content="article">
     <meta property="og:image" content="http://localhost:1313/">
@@ -80,10 +92,70 @@ Markets Are Mercyless Markets only produce efficient outcomes under very strong 
 
 
 
+        <style>
+             
+            body::before {
+                content: '';
+                position: fixed;
+                bottom: 50px;
+                right: 50px;
+                width: 100%;
+                height: 100%;
+                pointer-events: none;
+                z-index: -1;
+            }
+
+            .diagonal-bars-container {
+                position: fixed;
+                bottom: -1vmin;
+                left: 0;
+                width: 100%;
+                height: 50vh;
+                pointer-events: none;
+                z-index: -1;
+                overflow: hidden;
+            }
+
+            .diagonal-bar {
+                position: absolute;
+                width: 1.5vmin;
+                height: 200vh;
+                transform: rotate(45deg);
+                transform-origin: bottom center;
+                bottom: 0;
+                opacity: 0.2;
+            }
+
+            .diagonal-bar:nth-child(1) {
+                background-color: #fca02b;
+                right: calc(1.5 * 8 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(2) {
+                background-color: #00bf63;
+                right: calc(1.5 * 8 * 1.5vmin + 6 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(3) {
+                background-color: #38b6ff;
+                right: calc(1.5 * 8 * 1.5vmin + 12 * 1.5vmin);
+            }
+
+            .diagonal-bar:nth-child(4) {
+                background-color: #8c52ff;
+                right: calc(1.5 * 8 * 1.5vmin + 18 * 1.5vmin);
+            }
+        </style>
     </head>
 
     
         <body>
+            <div class="diagonal-bars-container">
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+                <div class="diagonal-bar"></div>
+            </div>
     
     
         <div class="container">
@@ -107,7 +179,7 @@ Markets Are Mercyless Markets only produce efficient outcomes under very strong 
 
         <span class="header__right">
                 <nav class="menu">
-    <ul class="menu__inner"><li><a href="http://localhost:1313/">Home</a></li><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li>
+    <ul class="menu__inner"><li><a href="http://localhost:1313/problem/">Problem</a></li><li><a href="http://localhost:1313/approach/">Approach</a></li><li><a href="http://localhost:1313/humans/">Designing for Humans</a></li><li><a href="http://localhost:1313/limits/">Living Within Limits</a></li><li><a href="http://localhost:1313/physics/">The laws of Physics</a></li><li><a href="http://localhost:1313/economic/">Making It Viable</a></li><li><a href="http://localhost:1313/join/">Build With Us</a></li><li><a href="http://localhost:1313/vehicles/">Vehicles</a></li>
     </ul>
 </nav>
 
@@ -145,23 +217,313 @@ Markets Are Mercyless Markets only produce efficient outcomes under very strong 
                 
 
                 <div class="post-content">
-                    <p>Building a sustainable mobility system isn’t just a question of physics or engineering, it’s a question of incentives, resources, and coordination. Capitalism and free markets and funding all impose more hard constraints that we have to solve.</p>
+                    <p>Building a sustainable mobility system is not primarily a question of physics or engineering.<br>
+It is a question of <strong>incentives, lock-in, capital allocation, and coordination</strong>.</p>
+<p>Markets, capitalism, and funding mechanisms impose hard constraints.
+Ignoring them does not make them disappear; This page is an attempt to take those constraints seriously, not to complain about them, but to design <em>within</em> them.</p>
 <hr>
-<h1 id="markets-are-mercyless">Markets Are Mercyless</h1>
-<p>Markets only produce efficient outcomes under very strong conditions : when competition is fair, information is perfect, and incentives align. Even then, efficiency (Pareto optimality) doesn’t guarantee fairness or justice.</p>
-<p>Unchecked competition can trigger what <a href="https://www.slatestarcodexabridged.com/Meditations-On-Moloch">Scott Alexander</a> calls <strong>Moloch traps</strong>: situations where rational individual decisions collectively destroy shared value. Examples abound: the Prisoner’s Dilemma, overfishing, race-to-the-bottom labor practices, arms races, or the two-income trap for suburban housing.</p>
-<p>From a “god’s-eye-view,” the system could stop destroying value: everyone could cooperate and reap mutual benefits. But from within the system, the individual has no incentive to unilaterally act against the competitive currents.</p>
-<p>In mobility, this shows up as legacy car companies prioritizing top-line growth over sustainability, urban planners favoring cars over bikes because of political risk, and investors demanding quick returns instead of long-term environmental gains.</p>
+<h2 id="i---markets-are-mercyless">I - Markets are Mercyless</h2>
+<p>Markets do not optimize for justice, sustainability, or long-term collective outcomes but only for pareto-efficiency.<br>
+They optimize only under strict assumptions:</p>
+<ul>
+<li>competition is fair</li>
+<li>information is available</li>
+<li>switching costs are low</li>
+<li>feedback is fast</li>
+</ul>
+<p>Mobility violates <strong>all</strong> of these.</p>
+<p>The result is not efficiency, but <strong>path dependence</strong>: once a system is built, the cheapest move is to keep using it, even if it is globally worse.</p>
+<p>Cars dominate not because they are optimal, but because:</p>
+<ul>
+<li>infrastructure is already paid for</li>
+<li>regulations are written around them</li>
+<li>habits and skills are formed around them</li>
+<li>alternatives must compete against sunk costs</li>
+</ul>
+<p>This is not a moral failure. It is an economic one.</p>
+<p>A Pareto-efficient outcome can still be absurd.<br>
+(A system where a few thousand people own more wealth than billions of others is Pareto-efficient too.)[https://wir2026.wid.world/insight/global-economic-inequity/]</p>
+<p>The relevant question is therefore not:<br>
+“Why don’t markets choose better mobility?”<br>
+but:<br>
+<strong>“Where do markets misprice costs and benefits and can we exploit that gap?”</strong></p>
 <hr>
-<h1 id="early-stage-funding">Early-Stage Funding</h1>
-<p>We rely on donnation and will expand that to sponsorship in the future.
-Once our scientific work is good enough we will focus on the next problem : Financing it and delivering it a scale.</p>
+<h2 id="ii---moloch">II - Moloch</h2>
+<p>Unchecked competition often produces what (Scott Alexander describes as <strong>Moloch traps</strong>)[https://www.slatestarcodexabridged.com/Meditations-On-Moloch]:<br>
+situations where individually rational choices lead to collectively worse outcomes.</p>
+<p>Classic examples include:</p>
+<ul>
+<li>arms races</li>
+<li>overfishing</li>
+<li>race-to-the-bottom labor practices</li>
+</ul>
+<p>Mobility is no different.</p>
+<ul>
+<li>Individuals choose cars because infrastructure and safety reward them</li>
+<li>Cities design for cars because voters already drive</li>
+<li>Companies build cars because that’s where demand and capital already are</li>
+</ul>
+<p>No one is irrational.<br>
+The equilibrium is still destructive.</p>
+<p>From a “god’s-eye view,” cooperation would clearly dominate.<br>
+From inside the system, unilateral deviation is punished.</p>
+<p>Don&rsquo;t blame the players, blame the rules&hellip;</p>
 <hr>
-<h1 id="scaling-and-value-lock-in">Scaling and Value Lock-In</h1>
+<h2 id="iii---the-véli-paradox-too-late-too-early">III - The Véli Paradox: Too Late, Too Early</h2>
+<p>The emergence of <em>véli</em> (véhicules intermédiaires légers) or LEVs across Europe is not accidental.<br>
+They respond to a real discomfort: cars are oversized for daily life, yet alternatives feel incomplete.</p>
+<p>And yet, most of these projects stall.</p>
+<p>Why?</p>
+<p>Because they sit between two systems that already work:</p>
+<ul>
+<li><strong>Bicycles</strong>, which are cheap, regulated, repairable, culturally accepted, and infrastructure-compatible</li>
+<li><strong>Cars</strong>, which handle edge cases at massive scale</li>
+</ul>
+<p>Any véli must survive three brutal comparisons:</p>
+<ol>
+<li>Against the bike: cost, simplicity, regulation, repairability</li>
+<li>Against the car: comfort, perceived safety, legitimacy</li>
+<li>Against inertia: doing nothing costs nothing</li>
+</ol>
+<p>If a véli is only <em>slightly</em> better on a few dimensions, it loses.</p>
+<p>As Philippe Meda argues in<br>
+<a href="https://www.icopilots.com/the-veli-question-can-a-good-idea-become-a-market/">“The Véli Question: Can a ‘good’ idea become a market?”</a><br>
+markets do not buy virtue. They buy outcomes.</p>
 <hr>
-<h1 id="ethical-and-strategic-complexity">Ethical and Strategic Complexity</h1>
+<h2 id="iv---reframing-the-problem-who-pays-who-uses-who-benefits">IV - Reframing the Problem: Who Pays, Who Uses, Who Benefits</h2>
+<p>A useful way to de-romanticize mobility is to split roles.</p>
+<h3 id="1-who-pays">1. Who pays?</h3>
+<ul>
+<li>Households (purchase, insurance, maintenance)</li>
+<li>Cities (infrastructure, parking, enforcement)</li>
+<li>Society (health costs, pollution, climate, direct and indirect subsidies)</li>
+</ul>
+<h3 id="2-who-uses">2. Who uses?</h3>
+<ul>
+<li>Often one adult</li>
+<li>Vehicles idle most of the time</li>
+<li>Capacity massively underutilized</li>
+</ul>
+<h3 id="3-who-benefits">3. Who benefits?</h3>
+<ul>
+<li>Individual: flexibility, time savings</li>
+<li>Employer: punctuality, labor pool from a much larger area</li>
+<li>A few big company: Selling oil, selling parts, selling cars, selling insurance, &hellip;</li>
+<li>Society: suffer from externalities</li>
+</ul>
+<p>Cars collapse these roles into one illusion:<br>
+<em>the user thinks they pay the full cost, but they don’t.</em></p>
 <hr>
-<h1 id="summary">Summary</h1>
+<h2 id="v---economic-choice-under-real-life-constraints">V - Economic Choice Under Real-Life Constraints</h2>
+<p>This builds on the motility framework introduced earlier.<br>
+We treat <strong>access, competence, and appropriation</strong> as given constraints that shape economic behavior.<br>
+What follows focuses strictly on <strong>cost structures, substitution thresholds, and economic choice</strong>.</p>
+<p>People do not choose mobility modes by optimizing energy, speed, or emissions.<br>
+They choose among <strong>viable options</strong> given their income, habits, household structure, and coordination needs.</p>
+<hr>
+<h3 id="1---a-few-household-mobility-scenarios-public-transport-and-feasible-choices">1 - A few Household Mobility Scenarios, Public Transport, and Feasible Choices</h3>
+<p>Mobility choices emerge from the interaction between <strong>public transport pricing</strong>, <strong>coordination needs</strong>, and <strong>redundancy costs</strong>.
+Public transport can either simplify life by replacing cars or, paradoxically, make alternatives harder to justify once it is already paid for.
+We describe a few broad category. they are not exaustive and come along a spectrum of individual with unique lives but will help for this argument.</p>
+<h4 id="a-dense-urban-aligned-life">A) Dense urban, aligned life</h4>
+<p>Home, work, and social life are concentrated within a dense urban fabric, with frequent and reliable public transport.</p>
+<ul>
+<li>Urban PT subscription: <strong>~120–180 CHF / month</strong></li>
+<li>Walking, bike, cargo bike</li>
+<li>Car: optional or absent</li>
+</ul>
+<p>Here, public transport acts as a <strong>coordination backbone</strong>.<br>
+Once the subscription is paid, marginal trips feel “free,” lowering the incentive to add another vehicle.</p>
+<p>Economically and functionally, the bike-PT system already dominates.<br>
+A véli struggles to justify itself unless it replaces specific trips that PT handles poorly (time, comfort, reliability), which is rare in this context.</p>
+<h4 id="b-city-to-city-commuter">B) City-to-city commuter</h4>
+<p>Regular long-distance travel between major urban centers.</p>
+<ul>
+<li>General pass (AG): <strong>~450 CHF / month</strong></li>
+<li>Car: generally hight in total cost, higher stress and variability</li>
+</ul>
+<p>The AG creates a <strong>high sunk cost</strong> with maximal coverage.<br>
+Once paid, it crowds out intermediate solutions: adding a light vehicle does not reduce the PT cost and add little marginal utility.</p>
+<p>Light vehicles do not compete here - neither economically nor cognitively.</p>
+<h4 id="c-peri-urban-or-rural-household">C) Peri-urban or rural household</h4>
+<p>Dispersed activities, weaker public transport, overlapping schedules.</p>
+<ul>
+<li>Public transport: limited, fragmented, often <strong>still paid</strong> (partial subscriptions, school passes)</li>
+<li>Primary car: unavoidable</li>
+<li>Second car: enables independence and schedule overlap</li>
+</ul>
+<p>Here, public transport is neither cheap enough nor comprehensive enough to act as a backbone.<br>
+Instead, it coexists with the car without removing the need for redundancy.</p>
+<p>The second car exists as a <strong>coordination failure buffer</strong>, not because it is loved, but because schedules break without it and public transport are not viable either economically or practically.</p>
+<p>The only scenario where economic substitution is plausible is by replacing <em>redundancy</em>.</p>
+<hr>
+<h3 id="2---the-reference-cost-a-typical-second-car-ch">2 - The Reference Cost: A Typical Second Car (CH)</h3>
+<p>For households in scenario C, the second car defines part of the economic benchmark.</p>
+<p>A conservative monthly cost breakdown in Switzerland:</p>
+<ul>
+<li>Purchase amortization: <strong>150–800 CHF</strong></li>
+<li>Insurance &amp; taxes: <strong>20-50 CHF</strong></li>
+<li>Fuel / electricity: <strong>20–200 CHF</strong></li>
+<li>Maintenance &amp; tires: <strong>10–250 CHF</strong></li>
+<li>Parking (often ignored): <strong>50–150 CHF</strong></li>
+</ul>
+<p><strong>Total:</strong> <strong>~250–1450 CHF / month</strong></p>
+<p>This cost is widely tolerated because it is:</p>
+<ul>
+<li>fragmented across categories</li>
+<li>partly invisible (depreciation, parking)</li>
+<li>normalized by long-standing car dependency</li>
+</ul>
+<p>Public transport costs do not eliminate this expense;<br>
+they often <strong>stack on top of it</strong>, increasing total household mobility spending.</p>
+<hr>
+<h3 id="3---the-100200-chf--month-substitution-window">3 - The 100–200 CHF / Month Substitution Window</h3>
+<p>Once the second-car cost is made explicit, a hard constraint appears.</p>
+<p>To substitute meaningfully, an alternative must sit well below the marginal cost of redundancy <em>and below the psychological threshold from public transport</em>.</p>
+<ul>
+<li><strong>&lt;100 CHF / month</strong><br>
+→ low-friction experimentation, easy addition alongside PT</li>
+<li><strong>100–150 CHF / month</strong><br>
+→ rational second-car substitution</li>
+<li><strong>&gt;200 CHF / month</strong><br>
+→ ideological or hobbyist choice</li>
+</ul>
+<p>Above <strong>200 CHF / month</strong>, an alternative no longer competes with a second car.<br>
+It competes with values, identity, or novelty but not budgets.</p>
+<p>This window defines upper bounds on:</p>
+<ul>
+<li>manufacturing cost</li>
+<li>acceptable lifespan assumptions</li>
+<li>insurance and liability models</li>
+<li>maintenance burden</li>
+<li>financing structure</li>
+</ul>
+<p>These are not design preferences.<br>
+They are <strong>economic thresholds</strong>.</p>
+<hr>
+<h3 id="4---economic-implication-for-neodrive">4 - Economic Implication for Neodrive</h3>
+<p>Neodrive does not target:</p>
+<ul>
+<li>primary car replacement</li>
+<li>dense urban cores</li>
+<li>long-distance commuting</li>
+</ul>
+<p>Its economic hypothesis is narrow:</p>
+<blockquote>
+<p>A vehicle that replaces the second car’s <em>function</em><br>
+while undercutting its <em>monthly marginal cost</em>.</p>
+</blockquote>
+<p>To remain within the substitution window, this implies:</p>
+<ul>
+<li>extreme durability</li>
+<li>minimal depreciation</li>
+<li>low insurance exposure</li>
+<li>predictable maintenance</li>
+<li>capital-light production choices</li>
+</ul>
+<p>Any design choice that violates these constraints is not a trade-off.<br>
+It is a disqualifier.</p>
+<hr>
+<h3 id="5---value-creation-capture-and-distribution">5 - Value Creation, Capture, and Distribution</h3>
+<p>In this framework:</p>
+<ul>
+<li><strong>User</strong> values independence and reduced coordination cost</li>
+<li><strong>Payer</strong> seeks lower monthly outlay than a second car</li>
+<li><strong>Beneficiary</strong> society and the planet (hopefully)</li>
+</ul>
+<p>Value is created by:</p>
+<ul>
+<li>reducing redundant capital</li>
+<li>lowering fixed mobility costs</li>
+<li>maintaining autonomy without escalation</li>
+</ul>
+<p>What is clear is the non-goal:</p>
+<ul>
+<li>extracting rent</li>
+<li>feature gating</li>
+<li>planned obsolescence</li>
+</ul>
+<hr>
+<h3 id="6---economic-scope-and-scale">6 - Economic Scope and Scale</h3>
+<p>This is not a mass-market ambition.</p>
+<ul>
+<li><strong>TAM</strong>: all multi-car households</li>
+<li><strong>SAM</strong>: households with short-to-medium daily trips and bike-compatible infrastructure</li>
+<li><strong>SOM</strong>: households willing to substitute redundancy with a non-car vehicle</li>
+</ul>
+<p>The SOM is small by design.<br>
+Viability here depends on <strong>stability</strong>, not volume.</p>
+<hr>
+<h3 id="7---what-this-chapter-establishes">7 - What This Chapter Establishes</h3>
+<p>This chapter does not argue that Neodrive will succeed.<br>
+It establishes the <strong>economic conditions under which it could</strong>.</p>
+<p>If the vehicle cannot:</p>
+<ul>
+<li>stay below the 150 CHF / month threshold</li>
+<li>replace second-car functionality</li>
+<li>avoid increasing coordination or cognitive cost</li>
+</ul>
+<p>then no amount of ethical intent or technical elegance will compensate.</p>
+<p>Markets do not negotiate with good intentions.
+They only respond to relieved constraints.</p>
+<hr>
+<h2 id="vi---industrial-reality-and-value-lock-in">VI - Industrial Reality and Value Lock-In</h2>
+<p>Cars are cheap not because they are elegant.<br>
+They are cheap because they are <strong>standardized mistakes produced billions of times</strong>.</p>
+<p>This creates brutal advantages:</p>
+<ul>
+<li>custom parts at near-raw-material cost</li>
+<li>amortized tooling and certification</li>
+<li>massive learning curves</li>
+</ul>
+<p>Small-scale innovation is punished:</p>
+<ul>
+<li>bespoke components destroy economies of scale</li>
+<li>certification costs do not scale down</li>
+<li>supply chains do not care about ethics</li>
+</ul>
+<p>This is <strong>value lock-in</strong>.</p>
+<p>For Neodrive, the implication is clear:</p>
+<blockquote>
+<p>We cannot out-car the car.</p>
+</blockquote>
+<p>We must:</p>
+<ul>
+<li>reuse existing industrial ecosystems</li>
+<li>rely on commodity parts</li>
+<li>prioritize repairability over optimization</li>
+<li>accept imperfection and tradeoff</li>
+</ul>
+<p>A unperfect vehicle that lasts 20 years beats a beautiful and expensive one that never make it on the market.</p>
+<hr>
+<h2 id="vii---ethics-without-illusions">VII - Ethics Without Illusions</h2>
+<p>Markets do not reward virtue.<br>
+They sometimes tolerate it when it is cheap.</p>
+<p>Our ethical constraints are not selling points:</p>
+<ul>
+<li>long lifespan</li>
+<li>repair-first design</li>
+<li>open knowledge</li>
+<li>refusal of rent extraction</li>
+</ul>
+<p>These do not justify existence.<br>
+They justify <strong>how</strong> we operate <em>if</em> existence is earned.</p>
+<p>Ethics are just extra constraints (economically speaking), and moral is not rewarded by the market.</p>
+<hr>
+<h2 id="viii---what-neodrive-is-actually-trying-to-prove">VIII - What Neodrive Is Actually Trying to Prove</h2>
+<p>Neodrive is not a promise.<br>
+It is a test.</p>
+<p>We aim to explore whether a vehicle can:</p>
+<ul>
+<li>replace a second car and reduce negative externalities on the environment</li>
+<li>cost less than <strong>150 CHF / month</strong></li>
+<li>integrate into bicycle infrastructure</li>
+<li>rely on existing industrial parts</li>
+<li>last <strong>20+ years</strong></li>
+<li>without betting on regulatory miracles</li>
+</ul>
+<p>all of that to get a foodhold to drive the economy of scale lower and hopefully start to replace the rest of the cars by being brutally cheaper.</p>
+<p>In practive that mean designing a vehicle that <a href="https://www.youtube.com/watch?v=XAYhNHhxN0A">can cost less than 5k CHF from a volume of a dozens per years.</a></p>
 <hr>
 
   <div class="social-icons">
